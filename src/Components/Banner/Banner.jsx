@@ -4,7 +4,7 @@ const Banner = () => {
     return (
         <div>
             {/* banner */}
-            <div className="grid md:grid-cols-2 items-center  bg-[#5dd14d0c]">
+            <div className="grid md:grid-cols-2 items-center  bg-[#5dd14d0c] mb-28">
                 {/* // bg-[#9873ff0c] */}
                 <div className="">
                     <h1 className="font-extrabold text-7xl text-[#1A1919] mb-6">

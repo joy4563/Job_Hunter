@@ -16,9 +16,12 @@ const Navbar = () => {
                 <Link to="/blog">Blog</Link>
             </div>
             <div>
-                <button className="rounded-lg bg-[#9873FF] px-7 py-5 text-white font-extrabold text-xl">
-                    Start Applying
-                </button>
+                <Link to="/startaApplying">
+                    {" "}
+                    <button className="rounded-lg bg-[#9873FF] px-7 py-5 text-white font-extrabold text-xl">
+                        Start Applying
+                    </button>
+                </Link>
             </div>
         </div>
     );
