@@ -7,7 +7,7 @@ const Statistics = () => {
         {
             id: 1,
             assignment: "assignment 1",
-            mark: 60
+            mark: 50
         },
         {
             id: 2,
