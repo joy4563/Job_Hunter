@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData } from "react-router-dom";
 import  './ViewDetails.css'
+import { addToDb } from "../../fakedb";
 
 
 const ViewDetails = () => {

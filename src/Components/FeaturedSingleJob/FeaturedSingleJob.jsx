@@ -12,7 +12,7 @@ const FeaturedSingleJob = ({ job, handleViewDetails,details }) => {
         address,
         salary,
     } = job;
-    // console.log(details);
+    console.log(job);
     return (
         <div className="border border-[#E8E8E8] rounded-lg p-10">
             <img className="h-10 mb-8" src={img} alt="" />
