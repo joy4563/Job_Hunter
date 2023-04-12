@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const FeaturedSingleJob = ({ job, handleViewDetails }) => {
+const FeaturedSingleJob = ({ job, handleViewDetails,details }) => {
     const {
+        id,
         img,
         designations,
         companyName,
@@ -10,7 +12,7 @@ const FeaturedSingleJob = ({ job, handleViewDetails }) => {
         address,
         salary,
     } = job;
-    // console.log(job);
+    // console.log(details);
     return (
         <div className="border border-[#E8E8E8] rounded-lg p-10">
             <img className="h-10 mb-8" src={img} alt="" />
@@ -36,12 +38,15 @@ const FeaturedSingleJob = ({ job, handleViewDetails }) => {
                     {salary}
                 </span>
             </p>
-            <button
-                onClick={() => handleViewDetails(job)}
-                className="text-white py-3 px-4 bg-[#9873FF] rounded mt-6 font-extrabold text-xl"
-            >
-                View Details
-            </button>
+            <Link to={`/viewDetails/${id}`}>
+                {" "}
+                <button
+                    // onClick={() => handleViewDetails(job)}
+                    className="text-white py-3 px-4 bg-[#9873FF] rounded mt-6 font-extrabold text-xl"
+                >
+                    View Details
+                </button>
+            </Link>
         </div>
     );
 };

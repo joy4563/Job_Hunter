@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
 import FeaturedSingleJob from "../FeaturedSingleJob/FeaturedSingleJob";
+import ViewDetails from "../ViewDetails/ViewDetails";
+import { Link } from "react-router-dom";
 
 const FeaturedJob = () => {
     const [featuredJob, setFeaturedJob] = useState([]);
     const [showedJob, setShowedJob] = useState([]);
+    const [details, setDetails] = useState([]);
 
     useEffect(() => {
         fetch("job.json")
@@ -21,13 +24,14 @@ const FeaturedJob = () => {
         setShowedJob(featuredJob);
     };
 
-
     // handle View Details
 
-    const handleViewDetails = (details) => {
+    // const handleViewDetails = (newJob) => {
 
-        console.log(details);
-    }
+    //     const newDetail=[...details,newJob]
+    //     setDetails(newDetail);
+    //     // console.log(newDetail);
+    // };
     return (
         <div className="flex flex-col items-center mb-32">
             <h1 className="font-extrabold text-5xl text-[#1A1919] mb-4">
@@ -42,7 +46,8 @@ const FeaturedJob = () => {
                     <FeaturedSingleJob
                         key={job.id}
                         job={job}
-                        handleViewDetails={handleViewDetails}
+                        // handleViewDetails={handleViewDetails}
+                        details={details}
                     ></FeaturedSingleJob>
                 ))}
             </div>

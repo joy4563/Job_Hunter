@@ -9,6 +9,7 @@ import AppliedJobs from "./Components/AppliedJobs/AppliedJobs";
 import Home from "./Components/Home/Home";
 import Blog from "./Components/Blog/Blog";
 import StartApplying from "./Components/StartApplying/StartApplying";
+import ViewDetails from "./Components/ViewDetails/ViewDetails";
 
 const router = createBrowserRouter([
     {
@@ -35,6 +36,21 @@ const router = createBrowserRouter([
             {
                 path: "/startaApplying",
                 element: <StartApplying></StartApplying>,
+            },
+            {
+                path: "/viewDetails/:jobId",
+                element: <ViewDetails></ViewDetails>,
+                loader: async ({ params }) => {
+                    const loadedJob = await fetch("/job.json");
+                    const jobDes = await loadedJob.json();
+                    const getData = [];
+                    for (let i = 0; i < jobDes.length; i++) {
+                        if (jobDes[i].id === params.jobId) {
+                            getData.push(jobDes[i]);
+                        }
+                    }
+                    return getData;
+                },
             },
         ],
     },
