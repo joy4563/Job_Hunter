@@ -4,6 +4,7 @@
         "companyName": "ORACLE",
         "designations": "Database Engineer",
         "jobType": "Onsite",
+        "duration": "Full Time",
         "address": "Dhaka, Bangladesh",
         "salary": "100k-150k",
         "jobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
@@ -19,6 +20,8 @@
         "companyName": "Netflix",
         "designations": "Senior Product Designer",
         "jobType": "Remote",
+        "duration": "Full Time",
+
         "address": "Mumbai, India",
         "salary": "90k-150k",
         "jobDescription": "The Senior Product Manager at Netflix is responsible for leading the development of new products and features for the streaming service. This includes identifying customer needs and defining product requirements, as well as collaborating with cross-functional teams to deliver high-quality products that meet business objectives.",
@@ -34,6 +37,8 @@
         "companyName": "BMW",
         "designations": "Software Engineering",
         "jobType": "Onsite",
+        "duration": "Part Time",
+
         "address": "Khulna, Bangladesh",
         "salary": "40k-150k",
         "jobDescription": "The Software Engineer at Tesla is responsible for developing software and applications for Tesla's electric vehicles and energy products. This includes designing and implementing software solutions, testing and debugging software, and collaborating with cross-functional teams to deliver high-quality products that meet business objectives.",
@@ -42,13 +47,15 @@
         "experience": "1-2 years field",
         "phone": "017 00 000 000",
         "email": "tesla@gmail.com",
-        "img": "https://thumbs.dreamstime.com/b/bmw-logo-editorial-illustrative-white-background-eps-download-vector-jpeg-banner-bmw-logo-editorial-illustrative-white-208329176.jpg"
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbQwJH907HmuzMgF2wAFZpVY3uukJM83elvg&usqp=CAU"
     },
     {
         "id": "4",
         "companyName": "IBM",
         "designations": "Technical Engineering",
         "jobType": "Remote",
+        "duration": "Part Time",
+
         "address": "Rome, Italy",
         "salary": "120k-150k",
         "jobDescription": "The Technical Engineer at Google is responsible for providing technical support to Google's enterprise customers. This includes troubleshooting complex technical issues, resolving customer inquiries, and collaborating with cross-functional teams to ensure customer satisfaction and retention.",
@@ -64,6 +71,8 @@
         "companyName": "Airbnb LLC",
         "designations": "Motion Graphic Designer",
         "jobType": "Remote",
+        "duration": "Full Time",
+
         "address": "Paris, France",
         "salary": "120k-150k",
         "jobDescription": "The Motion Graphic Designer at Airbnb is responsible for creating visually compelling and engaging motion graphics that enhance the company's brand and marketing efforts. This includes conceptualizing, designing, and animating motion graphics for various platforms and formats, including social media, web, and video..",
@@ -79,6 +88,8 @@
         "companyName": "Microsoft",
         "designations": "Software Engineering",
         "jobType": "Onsite",
+        "duration": "Part Time",
+
         "address": "Melbourne, Australia",
         "salary": "110k-150k",
         "jobDescription": "The Software Engineer at Microsoft is responsible for designing, developing, and testing software applications and systems that meet the needs of Microsoft's customers. This includes collaborating with cross-functional teams, using modern software development methodologies, and contributing to the delivery of high-quality software products.",
