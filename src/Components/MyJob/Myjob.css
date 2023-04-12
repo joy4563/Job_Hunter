@@ -1,0 +1,18 @@
+.company-img1{
+    width: 240px;
+    height: 240px;
+}
+.jobType{
+    border: 1px solid #7E90FE;
+    border-radius: 4px;
+    color: #7E90FE;
+}
+.view-details-btn{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    color: white;
+}
+.job-des1{
+    width: 1000px;
+    border: 1px solid rgba(62, 60, 60, 0.21);
+}

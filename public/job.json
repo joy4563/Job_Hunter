@@ -1,10 +1,9 @@
 [
     {
         "id": "1",
-        "companyName": "Google LLC",
-        "designations": "Google Database Engineer",
+        "companyName": "ORACLE",
+        "designations": "Database Engineer",
         "jobType": "Onsite",
-        "duration":"Full Time",
         "address": "Dhaka, Bangladesh",
         "salary": "100k-150k",
         "jobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
@@ -12,15 +11,14 @@
         "educationalRequirement":"Bachelor degree to complete any reputational university.",
         "experience": "2-3 years field",
         "phone": "017 00 000 000",
-        "email": "example@gmail.com",
-        "img": "https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw"
+        "email": "google@gmail.com",
+        "img": "https://c8.alamy.com/comp/2CBMCJE/oracle-2CBMCJE.jpg"
     },
     {
         "id": "2",
         "companyName": "Netflix",
         "designations": "Senior Product Designer",
         "jobType": "Remote",
-        "duration":"Part Time",
         "address": "Mumbai, India",
         "salary": "90k-150k",
         "jobDescription": "The Senior Product Manager at Netflix is responsible for leading the development of new products and features for the streaming service. This includes identifying customer needs and defining product requirements, as well as collaborating with cross-functional teams to deliver high-quality products that meet business objectives.",
@@ -28,15 +26,14 @@
         "educationalRequirement":"Bachelor's or Master's degree in Business, Engineering, or a related field.",
         "experience": "2-3 years field",
         "phone": "017 00 000 000",
-        "email": "example@gmail.com",
+        "email": "netflix@gmail.com",
         "img": "data:image/png;base64,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"
     },
     {
         "id": "3",
-        "companyName": "Tesla",
+        "companyName": "BMW",
         "designations": "Software Engineering",
         "jobType": "Onsite",
-        "duration":"Full Time",
         "address": "Khulna, Bangladesh",
         "salary": "40k-150k",
         "jobDescription": "The Software Engineer at Tesla is responsible for developing software and applications for Tesla's electric vehicles and energy products. This includes designing and implementing software solutions, testing and debugging software, and collaborating with cross-functional teams to deliver high-quality products that meet business objectives.",
@@ -44,15 +41,14 @@
         "educationalRequirement":"Bachelor's or Master's degree in Computer Science, Electrical Engineering, or a related field.",
         "experience": "1-2 years field",
         "phone": "017 00 000 000",
-        "email": "example@gmail.com",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoUVhRbY2uqIuvAVc16ZfA5cKniZ8oU7esQnb4zeuPzabfukpsU3cltsW-9ixGFyd2U_c&usqp=CAU"
+        "email": "tesla@gmail.com",
+        "img": "https://thumbs.dreamstime.com/b/bmw-logo-editorial-illustrative-white-background-eps-download-vector-jpeg-banner-bmw-logo-editorial-illustrative-white-208329176.jpg"
     },
     {
         "id": "4",
-        "companyName": "Google LLC",
+        "companyName": "IBM",
         "designations": "Technical Engineering",
         "jobType": "Remote",
-        "duration":"Part Time",
         "address": "Rome, Italy",
         "salary": "120k-150k",
         "jobDescription": "The Technical Engineer at Google is responsible for providing technical support to Google's enterprise customers. This includes troubleshooting complex technical issues, resolving customer inquiries, and collaborating with cross-functional teams to ensure customer satisfaction and retention.",
@@ -60,15 +56,14 @@
         "educationalRequirement":"Bachelor's or Master's degree in Computer Science, Information Technology, or a related field.",
         "experience": "1-2 years field",
         "phone": "017 00 000 000",
-        "email": "example@gmail.com",
-        "img": "https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw"
+        "email": "googleLLC@gmail.com",
+        "img": "https://www.thecoldwire.com/wp-content/uploads/2022/08/A-sign-for-the-IBM-corporation-on-the-wall.jpeg"
     },
     {
         "id": "5",
         "companyName": "Airbnb LLC",
         "designations": "Motion Graphic Designer",
         "jobType": "Remote",
-        "duration":"Full Time",
         "address": "Paris, France",
         "salary": "120k-150k",
         "jobDescription": "The Motion Graphic Designer at Airbnb is responsible for creating visually compelling and engaging motion graphics that enhance the company's brand and marketing efforts. This includes conceptualizing, designing, and animating motion graphics for various platforms and formats, including social media, web, and video..",
@@ -76,7 +71,7 @@
         "educationalRequirement":"Bachelor's or Master's degree in Graphic Design, Motion Design, or a related field.",
         "experience": "5-7 years field",
         "phone": "017 00 000 000",
-        "email": "example@gmail.com",
+        "email": "airbnb@gmail.com",
         "img": "https://www.billboard.com/wp-content/uploads/media/airbnb-logo-2017-billboard-1548.jpg?w=1024"
     },
     {
@@ -84,7 +79,6 @@
         "companyName": "Microsoft",
         "designations": "Software Engineering",
         "jobType": "Onsite",
-        "duration":"Part Time",
         "address": "Melbourne, Australia",
         "salary": "110k-150k",
         "jobDescription": "The Software Engineer at Microsoft is responsible for designing, developing, and testing software applications and systems that meet the needs of Microsoft's customers. This includes collaborating with cross-functional teams, using modern software development methodologies, and contributing to the delivery of high-quality software products.",
@@ -92,7 +86,7 @@
         "educationalRequirement":"Bachelor's or Master's degree in Computer Science, Electrical Engineering, or a related field.",
         "experience": "5-7 years field",
         "phone": "017 00 000 000",
-        "email": "example@gmail.com",
+        "email": "microsoft@gmail.com",
         "img": "https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658__340.png"
     }
 ]

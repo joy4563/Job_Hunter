@@ -1,0 +1,25 @@
+.projectName{
+    font-weight: 800;
+    font-size: 32px;
+    color: #1A1919;
+}
+.navBtn{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+}
+@media screen and (max-width: 576px) {
+    .navBtn {
+        width: 100%;
+        background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+        border-radius: 8px;
+    }
+    .projectName {
+        font-weight: 800;
+        font-size: 32px;
+        color: #1A1919;
+        margin-left: 10px;
+    }
+    .specialCase{
+        display: none;
+    }
+}
